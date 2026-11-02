@@ -339,33 +339,29 @@ function updateDisplay() {
                 </div>
 
 
-                <div class="quantity-box">
+     <div class="quantity-box" style="${[10, 20, 30, 40, 50].includes(Number(product.quantity)) ? 'display:none;' : ''}">
+    <span class="quantity-label">
+        その他の数量
+    </span>
 
-                    <span class="quantity-label">
-                        その他の数量
-                    </span>
-
-                    <input
-                        type="number"
-                        min="0"
-                        placeholder="自由入力"
-                        value="${
-                            [10,20,30,40,50].includes(
-                                Number(product.quantity)
-                            )
-                                ? ""
-                                : product.quantity || ""
-                        }"
-                        oninput="
-                            updateProduct(
-                                ${index},
-                                'quantity',
-                                this.value
-                            )
-                        "
-                    >
-
-                </div>
+    <input
+        type="number"
+        min="0"
+        placeholder="自由入力"
+        value="${
+            [10, 20, 30, 40, 50].includes(Number(product.quantity))
+                ? ""
+                : product.quantity || ""
+        }"
+        oninput="
+            updateProduct(
+                ${index},
+                'quantity',
+                this.value
+            )
+        "
+    >
+</div>
 
             </div>
 
