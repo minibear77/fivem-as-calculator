@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ASTRALIS 会計計算機</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+
+        <!-- タイトル -->
+        <div class="header">
+            <h1>ASTRALIS</h1>
+            <p>会計計算機</p>
+        </div>
+
+        <!-- 商品追加 -->
+        <button class="add-button" onclick="addProduct()">
+            ＋ 商品を追加
+        </button>
+
+        <!-- 商品一覧 -->
+        <div id="product-list"></div>
+
+        <!-- 金額エリア -->
+        <div class="summary">
+
+            <div class="summary-row">
+                <span>小計</span>
+                <strong id="subtotal">¥0</strong>
+            </div>
+
+            <div class="summary-row large">
+                <span>合計金額</span>
+                <strong id="total">¥0</strong>
+            </div>
+
+            <div class="summary-row large discount">
+                <span>白市民割（10%OFF）</span>
+                <strong id="white-citizen-total">¥0</strong>
+            </div>
+
+            <div class="summary-row large discount">
+                <span>初心者割（50%OFF）</span>
+                <strong id="beginner-total">¥0</strong>
+            </div>
+
+        </div>
+
+        <!-- 全クリア -->
+        <button class="clear-button" onclick="clearAll()">
+            全クリア
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
