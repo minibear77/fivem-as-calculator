@@ -481,3 +481,8 @@ body {
 
     border-radius: 10px;
 }
+
+/* その他の数量入力欄を少し小さく */
+.quantity-box input[type="number"] {
+    width: 100px;
+}
