@@ -439,7 +439,7 @@ function updateTotal() {
     /* 初心者割 30%OFF */
 
     const beginner =
-        Math.floor(total * 0.3);
+        Math.floor(total * 0.7);
 
 
     document.getElementById(
