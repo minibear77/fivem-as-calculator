@@ -9,57 +9,65 @@
 const productMaster = [
 
     {
-        name: "LUNARIA BEAR（紫くま）",
+        name: "ルナリア・ベア",
         price: 50000
     },
 
     {
-        name: "AURELIA BEAR（白くま）",
+        name: "オーレリア・ベア",
         price: 100000
     },
 
     {
-        name: "Crystal Bloom",
+        name: "クリスタル・ブルーム",
         price: 50000
     },
 
     {
-        name: "LUNA ÉCLAT",
+        name: "ルナ・エクラ",
         price: 50000
     },
 
     {
-        name: "FLEUR JEWEL",
+        name: "フルール・ジュエル",
         price: 50000
     },
 
     {
-        name: "LUNAR AMETHYST",
+        name: "ルナ・アメジスト",
         price: 50000
     },
 
     {
-        name: "Aurora Kiss",
+        name: "オーロラ・キス",
         price: 100000
     },
 
     {
-        name: "Ruby Rosé",
+        name: "ルビー・ローズ",
         price: 100000
     },
 
     {
-        name: "EMERALD MIST",
+        name: "エメラルド・ミスト",
         price: 100000
     },
 
     {
-        name: "PURPLE MIRAGE",
+        name: "パープル・ミラージュ",
+        price: 100000
+    },
+
+    {
+        name: "期間限定商品（30％）",
+        price: 50000
+    },
+
+    {
+        name: "期間限定商品（50％）",
         price: 100000
     }
-
 ];
-
 
 /* =========================
    現在の商品
