@@ -436,10 +436,10 @@ function updateTotal() {
         Math.floor(total * 0.9);
 
 
-    /* 初心者割 50%OFF */
+    /* 初心者割 30%OFF */
 
     const beginner =
-        Math.floor(total * 0.5);
+        Math.floor(total * 0.3);
 
 
     document.getElementById(
