@@ -44,7 +44,7 @@ const productMaster = [
     },
 
     {
-        name: "ルビー・ローズ",
+        name: "ルビー・ロゼ",
         price: 100000
     },
 
